@@ -1,5 +1,7 @@
 ﻿namespace DataStructures;
 
+//Comentar los que no se vayan a usar y eliminar el comentario (/* y */) del que se vaya usar!
+
 public class Program
 {
     static void Main(string[] args)
@@ -10,45 +12,50 @@ public class Program
 
         Console.WriteLine("Vectores");
 
+        //Vectores
         Colecciones.Vectores();
 
         Console.WriteLine("--------------");
 
         Console.WriteLine("Matrices");
 
-        Colecciones.Matrices();
+        //Matrices
+        /*Colecciones.Matrices();
 
         Console.WriteLine("--------------");
 
-        Console.WriteLine("Hashset");
+        Console.WriteLine("Hashset");*/
 
-        Colecciones.HashSet();
-
-        Console.WriteLine("--------------");
-
-        Console.WriteLine("Listas");
-
-        Colecciones.Listas();
+        //Hashsets
+        /* Colecciones.HashSet();
 
         Console.WriteLine("--------------");
 
-        Console.WriteLine("Stacks y Queues");
+        Console.WriteLine("Listas");*/
 
-        Colecciones.StacksYQueues();
+        //Listas
+        /*Colecciones.Listas();
 
         Console.WriteLine("--------------");
+
+        Console.WriteLine("Stacks y Queues");*/
+
+        //Stacks y Queues
+        /* Colecciones.StacksYQueues();
+
+        Console.WriteLine("--------------");
+
+        Console.WriteLine("Diccionario o Hashmap"); */
 
         //Diccionarios/Maps/Hashmaps
-        Console.WriteLine("Diccionario o Hashmap");
-
-        Diccionarios.CrearDiccionario();
+        /*Diccionarios.CrearDiccionario();
 
         Console.WriteLine("--------------");
 
-        //LinkedLists
-        Console.WriteLine("Lista Enlazada o LinkedList");
+        Console.WriteLine("Lista Enlazada o LinkedList");*/
 
-        LinkedLists.Double();
+        //LinkedLists o Listas Enlazadas
+        //LinkedLists.Double();
 
         Console.ReadKey();
     }
